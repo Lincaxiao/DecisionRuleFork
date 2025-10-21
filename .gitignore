@@ -3,3 +3,4 @@ logs/
 data/results_summary/
 models/
 data/
+.env
