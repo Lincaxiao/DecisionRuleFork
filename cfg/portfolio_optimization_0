@@ -1,0 +1,25 @@
+act_cls: relu
+algo: POCS
+batch_norm: true
+batch_size: 2
+bsz_factor: 1
+data_generator: true
+dc3_lr: 0.0001
+dc3_momentum: 0.5
+dc3_softweight: 100
+dc3_softweighteqfrac: 0.5
+epochs: 3
+eq_tol: 0.0001
+hidden_dims:
+- 256
+- 256
+ineq_tol: 0.0001
+ldr_temp: 10
+loss_type: obj
+lr: 0.0001
+max_iters: 300
+model: mlp
+optimizer: adam
+pretrain_epochs: 0
+renew_freq: 20
+weight_decay: 1.0e-08

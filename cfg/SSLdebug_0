@@ -1,0 +1,23 @@
+act_cls: relu
+algo: LDRPM
+alpha_penalty: 0
+batch_norm: true
+batch_size: 4
+bsz_factor: 5
+data_generator: true
+dc3_lr: 1.0e-07
+dc3_momentum: 0.5
+dc3_softweight: 10
+dc3_softweighteqfrac: 0.5
+epochs: 4
+hidden_dims:
+- 256
+- 256
+ldr_temp: 10
+loss_type: obj
+lr: 0.0001
+model: mlp
+optimizer: adam
+pretrain_epochs: 50
+renew_freq: 20
+weight_decay: 1.0e-08
